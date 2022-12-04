@@ -5,7 +5,7 @@ import os
 from datetime import datetime
 from PIL import ImageGrab
 
-path = 'C:/Users/JaswanthReddy/Hackathon/face_recognition/images'
+path = 'K:/Hackathon/face_recognition/images'
 images = []
 classNames = []
 myList = os.listdir(path)
@@ -33,7 +33,7 @@ cap = cv2.VideoCapture(0)
 
 
 img = cv2.imread(
-    'C:/Users/JaswanthReddy/Hackathon/face_recognition/Elon_Musk_2015.jpg')
+    'K:/Hackathon/face_recognition/Elon_Musk_2015.jpg')
 #img = captureScreen()
 imgS = cv2.resize(img, (0, 0), None, 0.25, 0.25)
 imgS = cv2.cvtColor(imgS, cv2.COLOR_BGR2RGB)
